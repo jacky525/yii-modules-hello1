@@ -1,5 +1,5 @@
 {
-    "name": "jacky.lin/composermomdule",
+    "name": "jacky.lin/composermodule",
     "description": "My first Composer module",
     "type": "modules",
     "authors": [
@@ -16,5 +16,8 @@
         "psr-0": {
             "HelloModule": "/"
         }
+    },
+    "extra": {
+        "version": "0.0.1"
     }
 }
