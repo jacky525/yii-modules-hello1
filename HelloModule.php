@@ -11,7 +11,7 @@ class HelloModule extends CWebModule
 		$this->setImport(array(
 			'hello1.models.*',
 			'hello1.components.*',
-		));
+		));  
 	}
 
 	public function beforeControllerAction($controller, $action)
